@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer circle boundary / drop shadow hint -->
+    <path
+        android:fillColor="#0D000000"
+        android:pathData="M54,22 C71.67,22 86,36.33 86,54 C86,71.67 71.67,86 54,86 C36.33,86 22,71.67 22,54 C22,36.33 36.33,22 54,22 Z" />
+
+    <!-- Detailed Painter's Palette -->
+    <path
+        android:fillColor="#FFFDD0"
+        android:strokeColor="#5C4033"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,26 C68,26 78,34 78,48 C78,56 73,63 64,63 C61,63 59,65 59,68 C59,73 53,78 44,78 C32,78 26,67 26,52 C26,38 38,26 54,26 Z" />
+
+    <!-- Thumb Hole in the palette -->
+    <path
+        android:fillColor="#E5E5E5"
+        android:strokeColor="#5C4033"
+        android:strokeWidth="1"
+        android:pathData="M35,62 A4,4 0 1,0 35,70 A4,4 0 1,0 35,62 Z" />
+
+    <!-- Paint blob 1: Red -->
+    <path
+        android:fillColor="#ED2939"
+        android:pathData="M42,36 A4,4 0 1,0 42,44 A4,4 0 1,0 42,36 Z" />
+
+    <!-- Paint blob 2: Blue -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,34 A4,4 0 1,0 54,42 A4,4 0 1,0 54,34 Z" />
+
+    <!-- Paint blob 3: Yellow -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M66,40 A4,4 0 1,0 66,48 A4,4 0 1,0 66,40 Z" />
+
+    <!-- Paint blob 4: Green -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M69,54 A4,4 0 1,0 69,62 A4,4 0 1,0 69,54 Z" />
+
+    <!-- Artist's Brush body crossing diagonally -->
+    <path
+        android:fillColor="#D2B48C"
+        android:strokeColor="#5C4033"
+        android:strokeWidth="1"
+        android:pathData="M32,74 L68,38 L72,42 L36,78 Z" />
+
+    <!-- Brush Ferrule (metal band) -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M68,38 L70,36 L74,40 L72,42 Z" />
+
+    <!-- Brush Head / Bristles with paint tip -->
+    <path
+        android:fillColor="#ED2939"
+        android:pathData="M70,36 C72,32 76,28 78,28 C78,28 78,32 74,38 L70,36 Z" />
+</vector>

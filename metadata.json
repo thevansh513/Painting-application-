@@ -1,0 +1,6 @@
+{
+  "name": "Painting Editor",
+  "description": "An offline Painting and Drawing Editor with smooth freehand strokes, brush customization, color picker, zoom/pan support, and drawing gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
